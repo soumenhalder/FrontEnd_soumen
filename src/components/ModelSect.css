@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    height: 100vh; /* Make the main container fill the viewport height */
+}
+
+.hero-content {
+    flex: 1; /* Allow hero-content to grow and take up remaining space */
+    max-width: 60%; /* Set the maximum width to 60% of the page */
+    margin-bottom: 40px;
+}
+
+.hero-content p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.hero-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+.contact {
+    margin-top: 40px; /* Add some space above the contact section */
+    width: 100%; /* Ensure contact section spans full width */
+}
+
+.market-logos {
+    display: flex;
+    justify-content: center; /* Center the logos horizontally */
+    gap: 20px; /* Add space between the logos */
+}
+
+.market-logo img {
+    max-width: 100px; /* Set the width of the logos */
+    height: auto; /* Maintain the aspect ratio */
+}

@@ -1,7 +1,6 @@
 /* src/App.css */
 
-.App {
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
+.logo img {
+  width: 75px; /* Set the width you want */
+  height: 100px; /* This maintains the aspect ratio */
+}
